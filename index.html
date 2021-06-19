@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>E-Commerce || Web</h1>
+    <img id="cart" src="img/cart.png" onmouseover="clickCart()" alt="cart">
+    <h2 id="itemCounter">0</h2>
+    <p id="orderTotal"></p>
+    <div class="product">
+        <img src="img/iphone12.png" alt="iphone">
+        <h3>Iphone 12</h3>
+        <button onclick="addToCart(iphone)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="img/macbook.png" alt="macbook">
+            <h3>Macbook Pro</h3>
+            <button onclick="addToCart(macbook)">Add to Cart</button>
+        </div>
+        
+
+    <script src="app.js"></script>
+
+</body>
+</html>
